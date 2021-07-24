@@ -42,7 +42,19 @@ pip install pillow
 cd HSE
 ```
 
-6. 실행
+6. 모델의 변경내용 DB 스키마에 적용하기 위해 마이그레이션 생성
+
+```
+python manage.py makemigrations
+```
+
+7. DB에 마이그레이션 적용
+
+```
+python manage.py migrate
+```
+
+8. 실행
 
 ```
 python manage.py runserver
