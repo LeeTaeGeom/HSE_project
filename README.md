@@ -60,6 +60,14 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+봉사 등록 하고 싶은 경우 superuser를 생성하여 로그인
+- superuser - 게시글 작성 및 수정 가능
+- 일반 유저 - 신청만 가능
+
+```
+python manage.py createsuperuser
+```
+
 ## Introduce
 
 기존 봉사활동 참여를 위한 방식에서 
