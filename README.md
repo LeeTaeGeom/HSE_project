@@ -3,7 +3,7 @@
 ![badges](https://img.shields.io/badge/python-3.9-blue)
 ![badges](https://img.shields.io/badge/Django-3.2.4-yellow)
 
-동국대학교 멋쟁이사자처럼 9 심바톤 3팀 HSE팀 (Hi-Sw-Education)
+동국대학교 멋쟁이사자처럼 9 심바톤 3팀 HSE팀 (Hi-Sw_Education)
 
 ## Built With
 
