@@ -18,43 +18,49 @@
 git clone https://github.com/LikeLion-at-DGU/HSE_project.git
 ```
 
-2. Django 설치
+2. 가상환경 켜기
+
+```
+pipenv shell
+```
+
+3. Django 설치
 
 ```
 pip install django
 ```
 
-3. Django-allauth 설치
+4. Django-allauth 설치
 
 ```
 pip install django-allauth
 ```
 
-4. Pillow 설치
+5. Pillow 설치
 
 ```
 pip install pillow
 ```
 
-5. HSE_project 폴더 내에서 HSE 폴더로 이동
+6. HSE_project 폴더 내에서 HSE 폴더로 이동
 
 ```
 cd HSE
 ```
 
-6. 모델의 변경내용 DB 스키마에 적용하기 위해 마이그레이션 생성
+7. 모델의 변경내용 DB 스키마에 적용하기 위해 마이그레이션 생성
 
 ```
 python manage.py makemigrations
 ```
 
-7. DB에 마이그레이션 적용
+8. DB에 마이그레이션 적용
 
 ```
 python manage.py migrate
 ```
 
-8. 실행
+9. 실행
 
 ```
 python manage.py runserver
